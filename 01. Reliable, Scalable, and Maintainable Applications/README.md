@@ -1,2 +1,27 @@
 # 1. Reliable, Scalable, and Maintainable Applications
-
+- Commonly needed functionality of data-intensive applications:
+  - Databases
+    - Store data so it can be found again later
+  - Caches
+    - Remember the result of an expensive operation to speed up reads
+  - Search Indexes
+    - Allow users to search data by keyword or filter it in various ways
+  - Stream Processing
+    - Send a message to another process, to be handled asynchronously
+  - Batch Processing
+    - Periodically crunch a large amount of accumulated data
+- Three concerns that are important in most software systems:
+  - Reliability
+    - The system should continue to work _correctly_ 
+      - performing the correct function at the desired level of performance 
+    - even in the face of _adversity_
+      - hardware or software faults, and even human error
+  - Scalability
+    - As the system _grows_,
+      - in data volume, traffic volume, or complexity
+    - there should be reasonable ways of dealing with that growth
+  - Maintainability
+    - Over time, the many people who work on the system should be able to do so _productively_
+      - engineering and operations
+      - maintaining current behavior and adapting the system to new use cases
+## Reliability
